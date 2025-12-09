@@ -1,0 +1,14 @@
+{
+  "name": "dalida-personal-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Reynan Dalida",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'No build step required for static site'",
+    "lint": "echo 'Add linting if needed'"
+  },
+  "keywords": ["portfolio", "web", "design"],
+  "author": "Reynan Dalida",
+  "license": "MIT"
+}

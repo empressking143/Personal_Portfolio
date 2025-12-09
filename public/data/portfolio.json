@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "images": [
+      "assets/img/portfolio/1portfolio/1details.png",
+      "assets/img/portfolio/1portfolio/2details.png",
+      "assets/img/portfolio/1portfolio/3details.png"
+    ],
+    "category": "Illustrator",
+    "client": "Multimedia Subject",
+    "date": "02 March, 2023",
+    "description": "It's the beginning of an exciting adventure! 🌟 Starting my first Adobe Illustrator project, and I'm feeling pumped. Remember, it's okay to be a beginner—everyone starts somewhere. Enjoy the process, embrace the learning curve, and let those creative ideas flow. I've got this!"
+  },
+  {
+    "id": 2,
+    "images": [
+      "assets/img/portfolio/2portfolio/1.png",
+      "assets/img/portfolio/2portfolio/2.png",
+      "assets/img/portfolio/2portfolio/3.png",
+      "assets/img/portfolio/2portfolio/4.png"
+    ],
+    "category": "Photo Angle",
+    "client": "Multimedia Subject",
+    "date": "16 April, 2023",
+    "description": "To capture dynamic action in your photoshoot, experiment with various angles. Employ low angles for added drama, burst mode for rapid sequences, and wide-angle shots to provide context. Explore overhead perspectives for uniqueness, and use panning for a sense of motion. Close-up shots add a personal touch. Mix these angles to create a visually engaging narrative of the energetic moments."
+  },
+  {
+    "id": 3,
+    "images": [
+      "assets/img/portfolio/3portfolio/1.png",
+      "assets/img/portfolio/3portfolio/2.png",
+      "assets/img/portfolio/3portfolio/3.png"
+    ],
+    "category": "Graphics",
+    "client": "Multimedia Subject",
+    "date": "02 March, 2023",
+    "description": "Graphics design is a powerful tool for visual communication. It involves creating images, layouts, and visual content to convey messages effectively. From logos to posters, graphics design combines creativity with technology to make ideas come to life."
+  },
+  {
+    "id": 4,
+    "images": [
+      "assets/img/portfolio/4portfolio/1.png"
+    ],
+    "category": "Organizational Chart",
+    "client": "Library",
+    "date": "7 September, 2023",
+    "description": "An organizational chart is a diagram that shows the structure of an organization and the relationships and relative ranks of its parts and positions/jobs."
+  },
+  {
+    "id": 5,
+    "images": [
+      "assets/img/portfolio/5portfolio/1.png",
+      "assets/img/portfolio/5portfolio/2.png",
+      "assets/img/portfolio/5portfolio/3.png",
+      "assets/img/portfolio/5portfolio/4.png"
+    ],
+    "category": "Photography",
+    "client": "Pagiririmaw 2023",
+    "date": "22 September, 2023",
+    "description": "Photography is the art, application, and practice of creating durable images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film."
+  },
+  {
+    "id": 6,
+    "images": [
+      "assets/img/portfolio/6portfolio/1.png"
+    ],
+    "category": "Photography",
+    "client": "Multimedia Subject",
+    "date": "13 March, 2023",
+    "description": "Photography captures moments in time, preserving memories and emotions. It's a blend of technical skill and artistic vision, allowing us to see the world through different lenses."
+  },
+  {
+    "id": 7,
+    "images": [
+      "assets/img/portfolio/7portfolio/1.png"
+    ],
+    "category": "Film",
+    "client": "Multimedia Subject",
+    "date": "29 March, 2023",
+    "description": "Filmmaking is the process of making a film, generally in the sense of films intended for extensive theatrical exhibition. Filmmaking involves a number of discrete stages including an initial story, idea, or commission, through scriptwriting, casting, shooting, sound recording and reproduction, editing, and screening the finished product before an audience that may result in a film release and an exhibition."
+  },
+  {
+    "id": 8,
+    "images": [
+      "assets/img/portfolio/8portfolio/1.png",
+      "assets/img/portfolio/8portfolio/2.png",
+      "assets/img/portfolio/8portfolio/3.png"
+    ],
+    "category": "Photography",
+    "client": "Colors",
+    "date": "07 March, 2023",
+    "description": "Color photography is photography that uses media capable of reproducing colors. By contrast, black-and-white (monochrome) photography records only a single channel of luminance (brightness) and uses media capable only of showing shades of gray."
+  },
+  {
+    "id": 9,
+    "images": [
+      "assets/img/portfolio/9portfolio/1.png",
+      "assets/img/portfolio/9portfolio/2.png",
+      "assets/img/portfolio/9portfolio/3.png",
+      "assets/img/portfolio/9portfolio/4.png"
+    ],
+    "category": "Pubmats",
+    "client": "SC",
+    "date": "01 September, 2023",
+    "description": "Publication materials are documents or media used to communicate information to a specific audience. They can include brochures, flyers, posters, newsletters, and more."
+  }
+]
