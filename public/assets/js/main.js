@@ -58,7 +58,11 @@
    * Scrool with ofset on links with a class name .scrollto
    */
   on('click', '#navbar .nav-link', function(e) {
-    let section = select(this.hash)
+    const href = this.getAttribute('href') || ''
+    // Only handle single-page hash navigation here; allow normal navigation for external/HTML links
+    if (!href.startsWith('#')) return
+
+    let section = select(href)
     if (section) {
       e.preventDefault()
 

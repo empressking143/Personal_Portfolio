@@ -270,50 +270,123 @@ h6 {
   line-height: 0;
   transition: 0.5s;
   position: fixed;
-  right: 15px;
+  right: 15px; /* This line remains unchanged */
   top: 15px;
 }
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
+    /* place toggle on left for sidebar style */
+    left: 15px;
+    right: auto; /* This line is added */
   }
 
+  /* Center the site name to avoid overlap with left sidebar toggle */
+  #header .container {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #header h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin: 0;
+  }
+
+  /* When header is compact (standalone pages), keep name centered but use normal flow */
+  #header.header-top h1 {
+    position: relative;
+    left: auto;
+    transform: none;
+  }
+
+
+/* Compact top bar on mobile: toggle at left, site name centered */
+@media (max-width: 991px) {
+  #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background: rgba(0,0,0,0.95);
+    z-index: 995;
+    padding: 0;
+    overflow: visible;
+  }
+
+  /* hide subtitle and social links on compact header */
+  #header h2,
+  #header .social-links {
+    display: none;
+  }
+
+  /* ensure the centered site name sits above other elements */
+  #header h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    z-index: 996;
+  }
+
+  .mobile-nav-toggle {
+    z-index: 999;
+  }
+
+  /* adjust section offset so content isn't hidden behind header */
+  section {
+    top: 80px; /* leave room for fixed header */
+  }
+  section.section-show {
+    top: 70px;
+  }
+}
   .navbar ul {
     display: none;
   }
 }
 
 .navbar-mobile {
+  /* left sidebar layout */
   position: fixed;
   overflow: hidden;
   top: 0;
-  right: 0;
   left: 0;
+  right: auto; /* This line is changed */
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  width: 260px; /* This line is added */
+  background: rgba(0, 0, 0, 0.95); /* This line is changed */
   transition: 0.3s;
   z-index: 999;
   margin-top: 0;
 }
 
 .navbar-mobile .mobile-nav-toggle {
-  position: absolute;
-  top: 15px;
-  right: 15px;
+  position: absolute; /* This line remains unchanged */
+  top: 15px; /* This line remains unchanged */
+  left: 15px; /* This line is changed */
+  right: auto; /* This line is added */
 }
 
 .navbar-mobile ul {
-  display: block;
-  position: absolute;
-  top: 55px;
-  right: 15px;
-  bottom: 45px;
-  left: 15px;
-  padding: 10px 0;
-  overflow-y: auto;
-  transition: 0.3s;
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  display: block; /* This line remains unchanged */
+  position: absolute; /* This line remains unchanged */
+  top: 70px; /* This line is changed */
+  left: 0; /* This line is added */
+  right: 0; /* This line is added */
+  bottom: 0; /* This line remains unchanged */
+  padding: 20px; /* This line is changed */
+  padding-top: 10px; /* This line remains unchanged */
+  overflow-y: auto; /* This line remains unchanged */
+  transition: 0.3s; /* This line remains unchanged */
+  border-right: 2px solid rgba(255, 255, 255, 0.06); /* This line is changed */
 }
 
 .navbar-mobile li {
